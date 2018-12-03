@@ -10,9 +10,9 @@
 
 ## [UI-Q简介](https://github.com/OS-Q/UI-Q/wiki)
 
-Q系统信息交互部分，用于管理各种生命周期的数据，DB-Q用于设备的本地数据存储
+Q系统信息交互部分，用于在不同平台上向人呈现信息，实现人机交互
 
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
@@ -28,13 +28,18 @@ MCU GUI框架
 
 ## [QT](https://github.com/OS-Q/QT)  
 
-QT框架
+Linux QT开发框架
 
 ---
+
 # [Q3](https://github.com/OS-Q/Q3) 
 
+## [web](https://github.com/OS-Q/web)  
+
+基于WEB开发
 
 ---
+
 # [Q4](https://github.com/OS-Q/Q4) 
 
 

@@ -1,0 +1,28 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+install:
+- cmd: >-
+    mkdir doc
+
+    perl licence.pl
+
+    cd charset & perl sbcsgen.pl & cd ..
+
+    C:\Python36-x64\python mkcmake.py > CMakeLists.txt
+
+    mkdir cmake-build
+
+    cd cmake-build
+
+    cmake ..
+build:
+  verbosity: normal
+test: off
+branches:
+  only:
+    - master
+artifacts:
+  - path: cmake-build/RelWithDebInfo/putty.pdb
+  - path: cmake-build/RelWithDebInfo/putty.exe
+configuration:
+  - RelWithDebInfo

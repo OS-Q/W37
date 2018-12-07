@@ -10,7 +10,9 @@
 
 ## [简介](https://github.com/OS-Q/UI-Q/wiki)
 
-Q系统信息交互部分，用于在不同平台上向人呈现信息，实现人机交互
+Q系统信息交互部分，用于在不同平台上和人对接信息，包括信息的呈现和控制接口，在不同的平台上，采用不同的基础和技术实现。
+
+下面4个部分，风别对应4种边缘体系设备的交互控制。
 
 ### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
@@ -18,47 +20,53 @@ Q系统信息交互部分，用于在不同平台上向人呈现信息，实现�
 
 # [Q1](https://github.com/OS-Q/Q1) 
 
-嵌入式图形显示框架，根据平台直接驱动相关显示器件显示数据
+边缘控制体系根据平台直接驱动相关显示器件显示数据
 
-相关软件直接集成在设备内部
+相关软件直接集成在设备内部，不单独罗列，向显示资源归集此处
 
+---
 # [Q2](https://github.com/OS-Q/Q2) 
 
-嵌入式通信显示器件，直接驱动或采用嵌入式显示框架
+边缘通信体系控制
 
-## [uCGUI](https://github.com/OS-Q/uCGUI)  
+### [uCGUI](https://github.com/OS-Q/uCGUI)  
 
-MCU GUI框架
+MCU GUI框架，用于数据呈现，简单的控制接口
 
-## [QT](https://github.com/OS-Q/QT)  
+### [QT](https://github.com/OS-Q/QT)  
 
-Linux QT开发框架
+Linux QT开发框架，本地呈现和交互
 
-
+---
 # [Q3](https://github.com/OS-Q/Q3) 
 
-linux显示驱动相关，采用相关框架，或者通过web端交互
+边缘计算体系交互控制
 
-## [QT](https://github.com/OS-Q/QT)  
+### [QT](https://github.com/OS-Q/QT)  
 
-Linux QT开发框架
+Linux QT开发框架，用于本地化交互
 
-## [web](https://github.com/OS-Q/web)  
+### [web](https://github.com/OS-Q/web)  
 
-基于WEB页面开发
+基于WEB页面开发，用于提供网络数据服务
 
+### [SSH](Q3/PuTTY/readme.md)
+
+基于PuTTY二次开发，用于连接对应平台进行控制
+
+---
 
 # [Q4](https://github.com/OS-Q/Q4) 
 
-大型平台交互，通过web或远程连接
+弹性计算体系交互控制
 
-## [web](https://github.com/OS-Q/web)  
+### [web](https://github.com/OS-Q/web)  
 
-基于WEB页面开发
+基于WEB页面开发，获取信息并配置参数
 
-## [SSH](SSH/readme.md)  
+### [SSH](Q4/CH/readme.md)  
 
-基于PuTTY二次开发
+基于PuTTY二次开发，用于连接对应平台进行控制
 
 ---
 

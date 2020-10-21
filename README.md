@@ -1,12 +1,14 @@
-﻿# [SSH](https://github.com/OS-Q/SSH) 
+﻿# [SSH](https://github.com/OS-Q/W37)
 
-[![sites](OS-Q/OS-Q.png)](http://www.os-q.com)
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-#### 归属系统交互：[UI-Q](https://github.com/OS-Q/UI-Q)
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+### [SSH描述](https://github.com/OS-Q/W37/wiki)
 
-## [SSH简介](https://github.com/OS-Q/SSH/wiki)
+[SSH](https://github.com/OS-Q/W37)
 
-用于连接非显示设备的工具
+### [收录资源](https://github.com/OS-Q/)
 
-### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/UI/SSH)
+* [文档](docs/)
+* [工程](project/)
+
+### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/SSH)
